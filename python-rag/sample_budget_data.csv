@@ -1,0 +1,25 @@
+Department,Category,Budget_Amount,Spent_Amount,Month,Year,Priority,Description
+IT,Software_Licenses,5000,3200,January,2024,High,Annual software subscriptions
+IT,Hardware,15000,12000,January,2024,Medium,Computer equipment and peripherals
+IT,Training,3000,1800,January,2024,Low,Employee training programs
+Marketing,Digital_Advertising,8000,7500,January,2024,High,Google Ads and social media campaigns
+Marketing,Print_Materials,2000,1500,January,2024,Medium,Brochures and business cards
+Marketing,Events,12000,11000,January,2024,High,Conference attendance and trade shows
+HR,Recruitment,6000,4500,January,2024,Medium,Job posting and recruitment tools
+HR,Benefits,25000,24000,January,2024,High,Employee health and wellness programs
+HR,Training,4000,2800,January,2024,Low,Professional development courses
+Finance,Consulting,10000,8500,January,2024,Medium,External financial advisory services
+Finance,Software,3000,2200,January,2024,High,Accounting and financial software
+Finance,Travel,5000,4200,January,2024,Low,Business travel expenses
+Operations,Office_Supplies,3000,2800,January,2024,Low,General office supplies and equipment
+Operations,Utilities,8000,7800,January,2024,High,Electricity, water, and internet services
+Operations,Maintenance,5000,3200,January,2024,Medium,Facility maintenance and repairs
+Sales,Commission,20000,18500,January,2024,High,Sales team commission payments
+Sales,Travel,15000,14200,January,2024,Medium,Sales team travel expenses
+Sales,Entertainment,3000,2800,January,2024,Low,Client entertainment and meals
+R&D,Equipment,25000,22000,January,2024,High,Research equipment and tools
+R&D,Software,8000,6500,January,2024,Medium,Development and testing software
+R&D,Consulting,12000,10500,January,2024,High,External research consultants
+Legal,Consulting,15000,13200,January,2024,High,Legal advisory services
+Legal,Compliance,8000,7200,January,2024,High,Regulatory compliance costs
+Legal,Software,2000,1800,January,2024,Medium,Legal document management software 

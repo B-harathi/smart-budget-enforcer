@@ -1,0 +1,26 @@
+Date,Department,Category,Amount,Description,Vendor,Payment_Method,Approved_By,Receipt_Number
+2024-01-15,IT,Software_Licenses,1200,Adobe Creative Suite Annual License,Adobe Inc,Credit Card,John Smith,ADB001
+2024-01-16,IT,Hardware,2500,MacBook Pro for new developer,Apple Store,Credit Card,Sarah Johnson,APP002
+2024-01-17,Marketing,Digital_Advertising,1800,Google Ads Campaign - Q1,Google LLC,Bank Transfer,Mike Davis,GOO003
+2024-01-18,Marketing,Events,3500,Conference Registration - TechCrunch,Eventbrite,Credit Card,Lisa Wilson,EVE004
+2024-01-19,HR,Recruitment,800,LinkedIn Premium Recruiter,LinkedIn Corporation,Credit Card,David Brown,LIN005
+2024-01-20,Finance,Consulting,2200,Financial Audit Services,PricewaterhouseCoopers,Bank Transfer,Emma White,PWC006
+2024-01-21,Operations,Office_Supplies,450,Office furniture and supplies,Staples Inc,Credit Card,Tom Anderson,STA007
+2024-01-22,Sales,Travel,1200,Airfare for client meeting,Delta Airlines,Credit Card,Alex Turner,DEL008
+2024-01-23,R&D,Equipment,8500,Lab equipment for testing,Scientific Equipment Co,Bank Transfer,Dr. Maria Garcia,SCI009
+2024-01-24,Legal,Consulting,3000,Contract review services,Legal Associates LLP,Bank Transfer,Robert Chen,LEG010
+2024-01-25,IT,Training,1200,Python Development Course,Udemy,Credit Card,John Smith,UDE011
+2024-01-26,Marketing,Print_Materials,750,Business cards and brochures,PrintPro Services,Credit Card,Mike Davis,PRN012
+2024-01-27,HR,Benefits,5000,Health insurance premium,Blue Cross Blue Shield,Bank Transfer,David Brown,BCB013
+2024-01-28,Finance,Software,1800,QuickBooks Enterprise License,Intuit Inc,Credit Card,Emma White,INT014
+2024-01-29,Operations,Utilities,2100,Electricity and internet services,Utility Company,Bank Transfer,Tom Anderson,UTL015
+2024-01-30,Sales,Entertainment,450,Client dinner at high-end restaurant,Restaurant XYZ,Credit Card,Alex Turner,RES016
+2024-01-31,R&D,Software,3200,Development tools and licenses,JetBrains Inc,Credit Card,Dr. Maria Garcia,JET017
+2024-02-01,Legal,Compliance,2400,Regulatory compliance audit,Compliance Experts Inc,Bank Transfer,Robert Chen,COM018
+2024-02-02,IT,Hardware,1800,Network switches and cables,Network Solutions,Credit Card,John Smith,NET019
+2024-02-03,Marketing,Digital_Advertising,2200,Facebook Ads Campaign,Facebook Inc,Credit Card,Mike Davis,FAC020
+2024-02-04,HR,Training,1600,Leadership development program,Leadership Institute,Credit Card,David Brown,LEA021
+2024-02-05,Finance,Travel,900,Conference travel expenses,Hilton Hotels,Credit Card,Emma White,HIL022
+2024-02-06,Operations,Maintenance,1800,HVAC system maintenance,Maintenance Pro,Bank Transfer,Tom Anderson,MAI023
+2024-02-07,Sales,Commission,8500,Sales commission payment,Internal Transfer,Bank Transfer,Alex Turner,INT024
+2024-02-08,R&D,Consulting,4200,Research methodology consultation,Research Partners,Bank Transfer,Dr. Maria Garcia,RES025 
