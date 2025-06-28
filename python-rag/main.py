@@ -8,6 +8,7 @@ from dotenv import load_dotenv
 import os
 import logging
 import tempfile
+import requests  # ✅ FIXED: Add missing requests import
 from datetime import datetime
 from typing import Dict, Any, List
 from fastapi import FastAPI, File, UploadFile, Form, HTTPException, Depends
@@ -452,8 +453,21 @@ async def generate_recommendations(
         # ✅ ENHANCED: Create AgentState for workflow processing
         from models import AgentState, BudgetData, ExpenseData
 
-        # Convert dictionaries to proper objects
-        budget_object = BudgetData(**budget_data)
+        # ✅ FIXED: Convert dictionaries to proper objects with field mapping
+        # Map budget_data to match BudgetData model requirements
+        budget_data_mapped = {
+            "name": budget_data.get('name', f"{budget_data.get('department', 'Unknown')} - {budget_data.get('category', 'Unknown')}"),
+            "category": budget_data.get('category', 'Unknown'),
+            "department": budget_data.get('department', 'Unknown'),
+            "amount": budget_data.get('limit_amount', 0),  # ✅ FIXED: Map limit_amount to amount
+            "limit_amount": budget_data.get('limit_amount', 0),
+            "warning_threshold": budget_data.get('warning_threshold', budget_data.get('limit_amount', 0) * 0.8),
+            "priority": budget_data.get('priority', 'Medium'),
+            "vendor": budget_data.get('vendor', ''),
+            "email": budget_data.get('email', 'admin@company.com')
+        }
+        
+        budget_object = BudgetData(**budget_data_mapped)
         expense_object = ExpenseData(**expense_data)
 
         workflow_state = AgentState(
