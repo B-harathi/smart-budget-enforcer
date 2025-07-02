@@ -1,4 +1,3 @@
- 
 /**
  * MongoDB Models for Smart Budget Enforcer
  * Person Y Guide: These are Mongoose schemas that define our data structure
@@ -222,6 +221,11 @@ const recommendationSchema = new mongoose.Schema({
     type: String,
     enum: ['pending', 'accepted', 'rejected', 'implemented'],
     default: 'pending'
+  },
+  ai_metadata: {
+    type: mongoose.Schema.Types.Mixed,
+    required: false,
+    default: {}
   }
 }, {
   timestamps: true
