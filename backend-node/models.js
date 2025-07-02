@@ -40,11 +40,13 @@ const budgetSchema = new mongoose.Schema({
   },
   category: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   department: {
     type: String,
-    required: true
+    required: true,
+    unique: true
   },
   amount: {
     type: Number,

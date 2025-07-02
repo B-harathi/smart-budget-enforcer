@@ -1,22 +1,26 @@
-# Smart Budget Enforcer - Python RAG Service Dependencies
-# Person Y Guide: These are all the Python packages needed for AI processing
+# Smart Budget Enforcer - LangChain + LangGraph Implementation
+# Complete dependencies for LangChain agents with tools
 
 # FastAPI framework
 fastapi==0.104.1
 uvicorn==0.24.0
 
-# LangChain ecosystem for RAG and agents
+# LangChain ecosystem (full suite)
 langchain==0.0.350
 langchain-community==0.0.27
 langchain-core==0.1.13
 langgraph==0.0.25
+langchain-google-genai==0.0.6
+
+# LangChain tools and utilities
+langchain-experimental==0.0.47
 
 # Google Gemini API
 google-generativeai==0.3.2
-langchain-google-genai==0.0.6
 
-# Vector database
+# Vector database (ChromaDB)
 chromadb==0.4.18
+sentence-transformers==2.2.2
 
 # Document processing
 pypdf2==3.0.1
@@ -24,15 +28,15 @@ python-docx==1.1.0
 openpyxl==3.1.2
 pandas>=2.1.4
 
-# Text processing and embeddings
-sentence-transformers==2.2.2
-# tiktoken==0.5.2
-
-# Utility packages
+# Core utilities
 python-multipart==0.0.6
 python-dotenv==1.0.0
 pydantic==2.5.2
 requests==2.31.0
 
-# Type hints (Person Y: Good practice for code clarity)
+# Type hints and validation
 typing-extensions==4.8.0
+
+# Additional LangChain dependencies
+jsonschema==4.19.0
+tenacity==8.2.3

@@ -1,0 +1,22 @@
+
+    BUDGET ALLOCATION REPORT 2024
+    
+    DEPARTMENT: Marketing
+    - Advertising Budget: $5,000 (Limit: $5,000, Warning: $4,000)
+    - Social Media: $2,000 (Limit: $2,000, Warning: $1,600)
+    - Events: $3,000 (Limit: $3,000, Warning: $2,400)
+    
+    DEPARTMENT: Sales
+    - Travel: $8,000 (Limit: $8,000, Warning: $6,400)
+    - Client Entertainment: $2,500 (Limit: $2,500, Warning: $2,000)
+    
+    DEPARTMENT: IT
+    - Software Licenses: $12,000 (Limit: $12,000, Warning: $9,600)
+    - Hardware: $5,000 (Limit: $5,000, Warning: $4,000)
+    
+    DEPARTMENT: Operations
+    - Office Supplies: $1,500 (Limit: $1,500, Warning: $1,200)
+    - Utilities: $3,000 (Limit: $3,000, Warning: $2,400)
+    
+    TOTAL BUDGET: $42,000
+    
